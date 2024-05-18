@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(40, 40, 40);
+    background-image: url(./assets/wall.jpg);
+    background-size: cover;
+    background: linear-gradient (135deg, rgba(255, 255, 255, 0.1), Orgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    webkit-backdrop-filter: blur (10px);
+    height: 100v;
+}
+
+.heading h1 {
+    font-family: 'Bagel Fat One', system-ui;
+    font-size: 90px;
+    color: aliceblue;
+}
+
+.handles {
+    margin-top: 40px;
+    display: flex-box;
+    border: 20px double white;
+    border-radius: 10px;   
+}
+
+.logo img {
+    width:90px;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+h2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 50px;
+    
+}
+
+.container-sm {
+    max-width: 800px;
+}
+
+h2 {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+h2:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
